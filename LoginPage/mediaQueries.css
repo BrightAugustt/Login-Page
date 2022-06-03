@@ -1,0 +1,111 @@
+@media(max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        height: 50%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .info {
+        background-color: #013243;
+        text-align: center;
+        border-radius: 5% 5% 0px 0%;
+        margin-bottom: 0px;
+        /* width: 70%; */
+    }
+    .grade {
+        padding-top: 12px;
+        color: lightblue;
+    }
+    img {
+        max-width: 60%;
+        margin: 0 auto;
+        max-height: 70%;
+    }
+    .form {
+        background-color: white;
+        border-radius: 0% 0% 5% 5%;
+    }
+    .login {
+        padding-top: 20px;
+        color: black;
+        padding-left: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .formgroup {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    .formgroup label {
+        font-weight: bolder;
+    }
+    .formgroup input {
+        margin-top: 5px;
+        border-style: none;
+        box-shadow: 0 0 5px gray;
+        padding: 10px;
+        width: 80%;
+        border-radius: 1%;
+    }
+    .agreeCheck {
+        padding-left: 20px;
+        width: 80%;
+        line-height: 20px;
+        font-size: 1.12rem;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .termsAgreement a {
+        font-weight: 700;
+        color: #013243;
+    }
+    .form button {
+        border-radius: 5px;
+        background-color: #013243;
+        color: white;
+        cursor: pointer;
+        border: none;
+        margin-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        margin-left: 20px;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:1075px) {
+    img {
+        max-height: 10%;
+    }
+    .grade {
+        padding-bottom: 40px;
+    }
+    .form button {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:900px) {
+    img {
+        max-height: 60%;
+    }
+    .grade {
+        padding-bottom: 51px;
+    }
+    .form button {
+        margin-bottom: 10px;
+    }
+}
